@@ -1,0 +1,36 @@
+{
+  "data_csv": "/home/evangoforth03/DNS GP Project/Macro/master_macro_dns_panel.csv",
+  "macro_csv": null,
+  "train_start": "1972-01-01",
+  "train_end": "2003-12-31",
+  "n_obs": 384,
+  "sample_first_month": "1972-01-01",
+  "sample_last_month": "2003-12-01",
+  "yield_columns": [
+    "y3",
+    "y6",
+    "y9",
+    "y12",
+    "y15",
+    "y18",
+    "y21",
+    "y24",
+    "y30",
+    "y36",
+    "y48",
+    "y60",
+    "y72",
+    "y84",
+    "y96",
+    "y108",
+    "y120"
+  ],
+  "macro_column_mapping": {
+    "FFR": "FFR",
+    "CU": "CU",
+    "PI": "PI"
+  },
+  "dns_lambda": 0.07258415503351763,
+  "dns_negative_loglik": -3284.205826257603,
+  "macro_dns_fit": true
+}

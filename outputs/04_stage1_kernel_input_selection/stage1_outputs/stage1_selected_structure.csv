@@ -1,0 +1,2 @@
+selected_kernel,selected_input_set,selected_input_dim,selected_lambda_corr,selected_S_val_neural_13,selected_val_mae_neural_13,reason_selected
+RBF,7D,7,0.5,29.337187435243848,22.522050336047613,"Pooled neural_13 RMSE sqrt(sum err^2 / sum n) across folds; best S_val=29.3372 bp; ties within 0.25 bp broken by MAE, then RBF>RQ, then 4D>7D, then lambda_corr 0.5>1.0, then fewer pathology flags."
